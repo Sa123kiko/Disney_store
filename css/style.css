@@ -1,7 +1,23 @@
 @import url(sanitize.css) screen and (max-width: 600px);
 
-
+body {
+  background-color: rgb(255,255,0);
+}
 
 .content {
-  background-color:#d1d1d1;
+  background-color: rgb(255,255,255);
+  width: 80%;
+  text-align: center;
+}
+
+p {
+  display: inline;
+}
+
+h1 {
+  padding: 20px;
+}
+
+.below-content {
+  padding: 30px;
 }
